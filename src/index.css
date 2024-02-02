@@ -1,0 +1,32 @@
+:root {
+  font-family: system-ui, -apple-system;
+  font-weight: 600;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+  /* overflow-y: hidden; */
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+}
+a {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  color: white;
+  text-decoration: inherit;
+}
+
+input{
+  border: 0 solid;
+  border-radius: 5px;
+}

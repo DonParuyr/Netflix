@@ -1,0 +1,42 @@
+.movies-list{
+    display: flex;
+    width: 100%;
+    background: #000;
+    padding-bottom: 50px;
+
+    > .wrapper{
+        padding-top: 30px;
+        width: 800px;
+        margin: 0 auto;
+    
+        >h5{
+            margin-bottom: 10px;
+        }
+        >.items{
+            display: flex;
+        }
+    }
+}
+
+.movie-card{
+    margin-right: 15px;
+    width: max-content;
+    height: 150px;
+    overflow: hidden;
+    border: 0px solid rgba(255, 255, 255, 0.358);
+    border-radius: 10px;
+    //оцентрируем картинки
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: filter 0.3s ease, transform 0.6s ease;
+    cursor: pointer;
+}
+.movie-card img{
+    width: 120px;
+}
+.movie-card:hover{
+    transform: scale(110%);
+    filter:drop-shadow(0px 0px 40px rgba(255, 255, 255, 0.262));
+}

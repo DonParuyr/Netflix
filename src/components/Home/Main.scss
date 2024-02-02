@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap");
+
+
+main {
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0, 0),
+    rgba(0,0,0, 100)
+  ),url(https://images.hdqwalls.com/wallpapers/the-walking-dead-minimal-4k-jy.jpg); 
+  background-image: radial-gradient();
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .wrapper {
+    // background-color: black;
+    width: 800px;
+    display: flex;
+
+    .content-max {
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      gap: 10px;
+      font-size: 0.8rem;
+      
+
+      //Название фильма
+      .title-logo-text {
+        margin-top: 50px; // сдвиг сверху до header
+        margin-bottom: 30px;
+        padding-top: 10px;
+        position: relative;
+        text-transform: uppercase;
+      } // text: 'The'
+      .title-logo-text h5 {
+        font-size: 1.4rem;
+        position: absolute;
+        padding-left: 50px;
+        font-family: "Oswald", sans-serif;
+        font-weight: 300;
+      } // text: 'Walking Dead'
+      .title-logo-text h1 {
+        font-size: 4.5rem;
+        padding-top: 10px;
+        font-family: "Anton", sans-serif;
+      }
+      ul {
+        list-style-type: none;
+      }
+
+      // ★★★★ 2010
+      .rate-date {
+        display: flex;
+        align-items: center;
+        filter: drop-shadow(0px 0px 7px black);
+        > ul {
+          color: red;
+          margin-right: 15px;
+        }
+        > span {
+          text-align: center;
+          margin-left: 7px;
+          border: 1px solid white;
+          padding: 1px;
+        }
+      }
+
+      .info-serial {
+        display: flex;
+        filter: drop-shadow(0px 0px 3px black);
+
+        .red {
+          color: red;
+        }
+        > p {
+          margin-inline: 5px;
+        }
+        > .duration {
+          margin-left: 25px;
+          font-weight: 100;
+        }
+      }
+    
+      .description{
+        filter: drop-shadow(0px 0px 7px black);
+
+        margin-block: 10px;
+      }
+
+      .play-my_list{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 30px;
+
+
+        > button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 0;
+
+            border-radius: 30px;
+            width: 110px;
+            height: 30px;
+
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: 0.7rem;
+
+            cursor: pointer;
+            filter: drop-shadow(5px 6px 30px rgba(0, 0, 0, 0.477));
+        }
+        > button.play{
+            font-size: 0.8rem;
+            gap: 7px;
+            background: radial-gradient(ellipse at top, #ff0002, #450505);
+            transition: all 0.3s ease;
+        }
+        > button.play:hover{
+            background: radial-gradient(ellipse at top, #fc7b7b, #450505);
+            transform: scale(110%);
+        }
+        > button.my_list{
+            display: flex;
+            gap: 7px;
+            font-size: 0.8rem;
+            background: radial-gradient(ellipse at top, #333, #111);
+            transition: all 0.3s ease;
+        }
+        > button.my_list:hover{
+            transform: scale(110%);
+            background: radial-gradient(ellipse at top, #4d4a4a, #000000);
+        }
+      }
+      .movie-list{
+        display: flex;
+        gap: 5px;
+      }
+    }
+  }
+}
+
+/*
+<div className='wrapper'>
+    <div className="title-logo-text">
+      <h5>The</h5>
+      <h1>Walkind Dead</h1>
+    </div>
+    <div className="reate-date">
+      <ul>
+        <Icon icon="ic:baseline-star" />
+        <Icon icon="ic:baseline-star" />
+        <Icon icon="ic:baseline-star" />
+        <Icon icon="ic:baseline-star" />
+      </ul>
+    </div>
+    <ul className="menu">
+      <li className="menu_link">111</li>
+      <li className="menu_link">222</li>
+      <li className="menu_link">333</li>
+    </ul>
+</div>
+*/

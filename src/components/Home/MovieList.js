@@ -1,0 +1,62 @@
+
+export const movies = [
+    {
+        id:1,
+        image:"https://i.pinimg.com/564x/f3/d5/d9/f3d5d90701dc7fa938aa053669e3fdc5.jpg"
+    },
+    {
+        id:2,
+        image:"https://i.pinimg.com/564x/14/45/f2/1445f2c92b3159849cf99422c6b8d33e.jpg"
+    },
+    {
+        id:3,
+        image:"https://i.pinimg.com/564x/0c/d5/96/0cd596cf5cbc035a61ec5a84711194a9.jpg"
+    },
+    {
+        id:4,
+        image:"https://i.pinimg.com/564x/c9/d9/79/c9d9790194326a5e426f86f9cb72fb3c.jpg"
+    },
+    {
+        id:5,
+        image:"https://i.pinimg.com/564x/8c/9d/35/8c9d3558b10eff36d8ccda9d2235e92b.jpg"
+    },
+    {
+        id:6,
+        image:"https://i.pinimg.com/564x/20/b9/69/20b9698e74d248a2351be5a3de785749.jpg"
+    },
+    {
+        id:7,
+        image:"https://i.pinimg.com/564x/91/bc/b9/91bcb97e8b5d5a4009e2cfe2421540b5.jpg"
+    }
+]
+
+export const serials = [
+    {
+        id:1,
+        image:"https://i.pinimg.com/564x/5d/de/ec/5ddeec6df35e0b3b2261cb1a0c0bb0b7.jpg"
+    },
+    {
+        id:2,
+        image:"https://i.pinimg.com/564x/f8/35/ae/f835aeeae602d52dc93d24df830ea383.jpg"
+    },
+    {
+        id:3,
+        image:"https://i.pinimg.com/564x/c0/b2/c3/c0b2c321f433715591a4e6f808c001a9.jpg"
+    },
+    {
+        id:4,
+        image:"https://i.pinimg.com/564x/cc/8d/e3/cc8de39fe6ed7445dea636f81a933b1d.jpg"
+    },
+    {
+        id:5,
+        image:"https://i.pinimg.com/564x/a1/59/20/a159205322d5145d445682695a5c0124.jpg"
+    },
+    {
+        id:6,
+        image:"https://i.pinimg.com/564x/0f/17/25/0f1725c7f0bff03a63414fe7d4edf56c.jpg"
+    },
+    {
+        id:7,
+        image:"https://i.pinimg.com/736x/0a/fc/ae/0afcae8f215517d3e24b3f1d768273dd.jpg"
+    }
+]
